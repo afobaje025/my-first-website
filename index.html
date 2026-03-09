@@ -1,0 +1,112 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Freelance Services | Work With Me</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<h1>Work With Me</h1>
+<p>I help brands grow with content, design, and development.</p>
+</header>
+
+<section class="services">
+<h2>Services I Offer</h2>
+
+<div class="service-grid">
+
+<div class="service">
+<h3>Content Writing</h3>
+<p>Blog posts, website copy, newsletters and SEO content.</p>
+</div>
+
+<div class="service">
+<h3>Social Media Management</h3>
+<p>Content strategy, posting, and audience growth.</p>
+</div>
+
+<div class="service">
+<h3>Motion Graphics</h3>
+<p>Engaging motion design and animated explainers.</p>
+</div>
+
+<div class="service">
+<h3>Website Development</h3>
+<p>Modern responsive websites for businesses.</p>
+</div>
+
+<div class="service">
+<h3>App Development</h3>
+<p>Mobile and web applications for startups.</p>
+</div>
+
+<div class="service">
+<h3>Landing Page Design</h3>
+<p>High-converting landing pages for products.</p>
+</div>
+
+</div>
+</section>
+
+<section class="form-section">
+
+<h2>Request My Services</h2>
+
+<form id="clientForm">
+
+<input type="text" name="name" placeholder="Your Name" required>
+
+<input type="email" name="email" placeholder="Your Email" required>
+
+<input type="text" name="company" placeholder="Company Name (Optional)">
+
+<select name="service" required>
+<option value="">Select Service</option>
+<option>Content Writing</option>
+<option>Social Media Management</option>
+<option>Motion Graphics</option>
+<option>Website Development</option>
+<option>App Development</option>
+<option>Landing Page Design</option>
+</select>
+
+<select name="budget" required>
+<option value="">Budget Range</option>
+<option>$100 - $500</option>
+<option>$500 - $1000</option>
+<option>$1000 - $3000</option>
+<option>$3000+</option>
+</select>
+
+<input type="date" name="deadline">
+
+<textarea name="description" placeholder="Describe your project..." required></textarea>
+
+<label>Upload File</label>
+<input type="file">
+
+<select name="referral">
+<option value="">How did you hear about me?</option>
+<option>Twitter</option>
+<option>LinkedIn</option>
+<option>Friend</option>
+<option>Google</option>
+<option>Other</option>
+</select>
+
+<button type="submit">Submit Request</button>
+
+</form>
+
+<p id="successMessage"></p>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
